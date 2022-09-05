@@ -1,0 +1,171 @@
+.heading_spesial
+ {
+    background-image: url(../img/backgraund.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 1vh;
+    vertical-align: inherit;
+    box-sizing: border-box;
+    font-size: inherit;    
+}
+@media (min-width: 500px) {
+    .coffemchine_container__heading > .coffemachine-red_image {
+        display: flex;
+    }
+    
+}
+.spesial
+ {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255 );
+    text-align: left;
+    
+}
+.spesial__subheading
+ {
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    vertical-align: inherit;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255 );
+    text-align: left;
+    font-weight: bold;
+    word-wrap: break-word;
+    font-weight: 700;
+    letter-spacing: normal;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+
+    
+}
+.spesial__text
+ {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    vertical-align: inherit;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255 );
+    text-align: left;
+    
+}
+.rent_now-button:hover {
+    color: grey ;
+}
+.rent_now-button {   
+
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+    color: rgb(34, 34, 34 );
+    border-bottom-color: rgb(34, 34, 34 );
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    user-select: none;
+    
+    
+}
+.characteristics-button:hover {
+    color: grey ;}
+
+.characteristics-button
+ {
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+    color: rgb(255, 255, 255 );
+    border-bottom-color: rgb(34, 34, 34 );
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    background-color: #c00407;
+    
+}
+.coffemachine-red_image {
+    object-fit: contain;
+    object-position: 50% 50%;
+    font-family: "object-fit:cover";
+    width: 397.078px;
+}
+.container__nav_coffe-logo {
+
+background-color: #222;
+
+}
+.coffemachine-red_image
+{
+   display: block; 
+   width: 20%;
+}   
+:root {
+    --h2-text-color: rgb(192, 4, 7)
+
+}
+.header-sub_selection {
+color: var(--h2-text-color);
+font-size: 12px;
+font-family: Roboto, sans-serif;
+
+}
+.selection_discover-coffemachine {
+
+    color: rgb(34, 34, 34 );
+    font-size: 34px;
+    font-family: Poppins, sans-serif;
+    
+    }
+
+.coffemachine-offer {
+
+    color: rgb(101, 101, 101 );
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    
+    }
+
+.articles_machine-subheader {
+
+    color: rgb(34, 34, 34 );
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+
+    
+    }
+.articles_machine-price {
+
+    color: var(--h2-text-color);
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    
+    }
+.articles_machine-add-button {
+
+    color: rgb(255, 255, 255 );
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-stretch: 100%;
+    
+
+    
+    }
+@media (min-width: 600px) {
+
+
+
+}
