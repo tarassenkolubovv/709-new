@@ -1,40 +1,27 @@
-.heading_spesial
- {
+.heading_spesial {
     background-image: url(../img/backgraund.png);
     background-size: cover;
     background-position: center;
     min-height: 1vh;
     vertical-align: inherit;
     box-sizing: border-box;
-    font-size: inherit;    
+    font-size: inherit;
+    column-count: 2;
 }
-@media (min-width: 500px) {
-    .coffemchine_container__heading > .coffemachine-red_image {
-        display: flex;
-    }
-    
-}
-.selection__header,  container__selection {
-    max-width: 980px;
-    margin: auto;
-}
-.spesial
- {
+.spesial {
     font-family: Roboto, sans-serif;
     font-size: 12px;
     box-sizing: border-box;
-    color: rgb(255, 255, 255 );
+    color: rgb(255, 255, 255);
     text-align: left;
-    
-    
+    display: flex;
 }
-.spesial__subheading
- {
+.spesial__subheading {
     font-family: Poppins, sans-serif;
     font-size: 48px;
     vertical-align: inherit;
     box-sizing: border-box;
-    color: rgb(255, 255, 255 );
+    color: rgb(255, 255, 255);
     text-align: left;
     font-weight: bold;
     word-wrap: break-word;
@@ -42,31 +29,27 @@
     letter-spacing: normal;
     overflow-wrap: break-word;
     vertical-align: baseline;
-
-    
+    display: flex;
 }
-.spesial__text
- {
+.spesial__text {
     font-family: Roboto, sans-serif;
     font-size: 18px;
     vertical-align: inherit;
     box-sizing: border-box;
-    color: rgb(255, 255, 255 );
+    color: rgb(255, 255, 255);
     text-align: left;
-    
 }
 .rent_now-button:hover {
-    color: grey ;
+    color: grey;
 }
-.rent_now-button {   
-
+.rent_now-button {
     font-weight: 700;
     display: inline-block;
     position: relative;
     max-width: 100%;
     word-wrap: break-word;
-    color: rgb(34, 34, 34 );
-    border-bottom-color: rgb(34, 34, 34 );
+    color: rgb(34, 34, 34);
+    border-bottom-color: rgb(34, 34, 34);
     text-align: center;
     cursor: pointer;
     font-size: 16px;
@@ -76,21 +59,18 @@
     box-sizing: border-box;
     user-select: none;
     margin-top: 45px;
-    
-    
 }
 .characteristics-button:hover {
-    color: grey ;}
-
-.characteristics-button
- {
+    color: grey;
+}
+.characteristics-button {
     font-weight: 700;
     display: inline-block;
     position: relative;
     max-width: 100%;
     word-wrap: break-word;
-    color: rgb(255, 255, 255 );
-    border-bottom-color: rgb(34, 34, 34 );
+    color: rgb(255, 255, 255);
+    border-bottom-color: rgb(34, 34, 34);
     text-align: center;
     box-sizing: border-box;
     cursor: pointer;
@@ -100,13 +80,12 @@
     vertical-align: middle;
     background-color: #c00407;
     margin-top: 45px;
-    
 }
 .coffemachine-red_image {
     object-fit: contain;
     object-position: 50% 50%;
     font-family: "object-fit:cover";
-    width: 489x;
+    width: 100%;
     margin-top: 45px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -116,105 +95,82 @@
     vertical-align: baseline;
     overflow-wrap: break-word;
     font-weight: 400;
-    height: 573.25px;
     line-height: 25.6px;
     font-size: 16px;
     border-image-repeat: stretch;
     border-image-slice: 100%;
     box-sizing: border-box;
-
-
-    
 }
 .container__nav_coffe-logo {
-
-background-color: #222;
-
+    background-color: #222;
 }
-.coffemachine-red_image
-{
-   display: block; 
-   width: 20%;
-}   
+.coffemachine-red_image {
+    display: block;
+    width: 20%;
+}
 :root {
     --h2-text-color-sel: rgb(192, 4, 7)
-    
-
 }
 .header-sub_selection {
-color: var(--h2-text-color-sel);
-font-size: 12px;
-font-family: Roboto, sans-serif;
-font-stretch: 100%;
-font-weight: 700;
-box-sizing: border-box;
-margin-top: 45px;
-text-align: center;
-
+    color: var(--h2-text-color-sel);
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    font-stretch: 100%;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin-top: 45px;
+    text-align: center;
 }
 .selection_discover-coffemachine {
-
-    color: rgb(34, 34, 34 );
+    color: rgb(34, 34, 34);
     font-size: 34px;
     font-family: Poppins, sans-serif;
     text-align: center;
     font-weight: bold;
-    
-    }
-
+}
 .coffemachine-offer {
 
-    color: rgb(101, 101, 101 );
+    color: rgb(101, 101, 101);
     font-size: 18px;
     font-family: Roboto, sans-serif;
     text-align: center;
-    
-    }
-
+}
 .articles_machine-subheader {
-
-    color: rgb(34, 34, 34 );
+    color: rgb(34, 34, 34);
     font-size: 18px;
     font-family: Roboto, sans-serif;
-
-    
-    }
+}
 .articles_machine-price {
-
     color: var(--h2-text-color);
     font-size: 18px;
     font-family: Roboto, sans-serif;
-    
-    }
+}
 .articles_machine-add-button {
-
-    color: rgb(255, 255, 255 );
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-family: Roboto, sans-serif;
     box-sizing: border-box;
     cursor: pointer;
-    font-stretch: 100%; 
+    font-stretch: 100%;
     background-color: #c00407;
-    
-    }
-    
-    @media (min-width: 600px) {
-     .container__articles_machine {
+}
+@media (min-width: 600px) {
+    .container__articles_machine {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
-            }
-        }
-    @media (min-width: 900px) {
-     .container__articles_machine {
-        grid-template-columns: 1fr 1fr 1fr;
-        }
     }
-    @media (min-width: 980px) {
-      .container__articles_machine {
+}
+@media (min-width: 900px) {
+    .container__articles_machine {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 980px) {
+    .container__articles_machine {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-                     }
-                        }
+    }
+}
 .machine_selection {
     width: 250px;
 }
@@ -222,9 +178,6 @@ text-align: center;
     width: 156px;
     justify-content: center;
     align-items: center;
-    
-    
-    
 }
 .slider_logo-img {
     width: 30px;
